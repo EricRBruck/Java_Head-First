@@ -3,7 +3,7 @@
 //Mixed Messages Part 1
 // Output: 00 11 21 32 42
 
-class CH01_MixedMessages1 { 
+class CH01_MixedMessages1 {
 	public static void main(String [] args) {
 		int x = 0;
 		int y = 0;
