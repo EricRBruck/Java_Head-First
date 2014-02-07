@@ -1,0 +1,43 @@
+=================================
+Code Magnets
+=================================
+A Java program is all scrambled up on the fridge.  Can you reconstruct the code snippets to make a working java program that produces the output listed below?  Some of the curly braces fell on the floor and they were too small to pick up, so feel free to add as many of those as you need.
+
+Desired output
+=================================
+	bang bang da-bang
+	ding ding da-bing
+
+Code Snippets
+=================================
+
+        -------------------------------------
+	d.playSnare();
+        -------------------------------------
+	CH02_EX2_DrumKit d = new CH02_EX2_DrumKit();
+        -------------------------------------
+	boolean topHat = true;
+        boolean snare = true;
+        -------------------------------------
+        void playSnare() {
+                System.out.println("bang bang ba-bang");
+        }
+        -------------------------------------
+	public static void main(String [] args) {
+        -------------------------------------
+	if (d.snare == true) {
+                d.playSnare();
+        }
+        -------------------------------------
+	d.snare = false;
+        -------------------------------------
+	class CH02_EX2_DrumKitTestDrive {
+        -------------------------------------
+	d.playTopHat();
+        -------------------------------------
+	class CH02_EX2_DrumKit {
+        -------------------------------------
+	void playTopHat() {
+                System.out.println("ding ding da-ding");
+        }
+        -------------------------------------

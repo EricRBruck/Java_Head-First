@@ -1,0 +1,21 @@
+=================================
+Be The Compiler
+=================================
+Each of the Java files on this page represents a complete source file.  Your job is to play compiler and determine whether each of these files will compile.  If they won't compile, how would you fix them, and if they do compile what would be their output?
+
+TapeDeck
+=================================
+Missing the following line of code in the TapeDeckTestDrive class:
+	TapeDeck t = new TapeDeck();
+
+Output will be the following:
+	tape playing
+	tape recording
+
+DVDPlayer
+=================================
+There is no playDVD method in the DVDPlayer class.  The following line in the DVDPlayerTestDrive class will throw an exception:
+	d.playDVD();
+
+Output will be the following:
+	DVD recording
