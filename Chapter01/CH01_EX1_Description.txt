@@ -1,0 +1,36 @@
+=================================
+Code Magnets
+=================================
+A Java program is all scrambled up on the fridge.  Can you reconstruct the code snippets to make a working java program that produces the output listed below?  Some of the curly braces fell on the floor and they were too small to pick up, so feel free to add as many of those as you need.
+
+Desired output
+=================================
+	a-b c-d
+
+Code Snippets
+=================================
+
+	-------------------------------------
+	if (x == 1) {
+		System.out.println("d");
+		x = x - 1;
+	}
+	-------------------------------------
+	if (x == 2) {
+                System.out.print("b c");
+        }
+	-------------------------------------
+	class CH01_Shuffle1 {
+        	public static void main(String[] args) {
+	-------------------------------------
+	if (x > 2) {
+                System.out.print("a");
+        }
+	-------------------------------------
+	int x = 3;
+	-------------------------------------
+	x = x - 1;
+        System.out.print("-");
+	-------------------------------------
+	while (x > 0) {
+	-------------------------------------
