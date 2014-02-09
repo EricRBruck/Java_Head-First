@@ -1,0 +1,43 @@
+=================================
+Be The Compiler
+=================================
+Each of the Java files on this page represents a complete source file.  Your job is to play compiler and determine whether each of these files will compile.  If they won't compile, how would you fix them, and if they do compile what would be their output?
+
+Books
+=================================
+Missing the following lines of code in the BooksTestDrive class after the Books array, myBooks, is defined:
+	myBooks[0] = new CH03_EX1_Books();
+        myBooks[1] = new CH03_EX1_Books();
+        myBooks[2] = new CH03_EX1_Books();
+
+Output will be the following:
+	The Grapes of Java by bob
+	The Java Gatsby by sue
+	The Java Cookbook by ian
+
+Hobbits
+=================================
+1st Change:
+	The main method needs to be in its own class.
+	The current structure forms an infinite recersive function.
+	Moving main to the HobbitsTestDrive class corrects this problem.
+
+2nd Change:
+	Changed 
+		while (z < 4) {
+	to
+        	while (z < 3) {
+	This would cause an out of bounds reference.
+	The code would try to reference array position 3.
+	The only legal array positions are 0, 1, and 2.
+
+3rd Change:
+	Moved
+		z = z + 1;
+	to end of while loop.
+	If not array position 0 would never be referenced.
+
+Output will be the following:
+	bilbo is a good Hobbit name
+	frodo is a good Hobbit name
+	sam is a good Hobbit name
