@@ -12,8 +12,9 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >
 >**Chapter 2** - A Trip to Objectville: yes, there will be objects
 >
->**Chapter 3** - Know Your Variables: primitives and references (Current)
-
+>**Chapter 3** - Know Your Variables: primitives and references
+>
+>**Chapter 4** - How Objects Behave: object state affects method behavior (Current)
 
 - - -
 ##### Chapter 1 Content - Breaking the Surface: a quick dip #####
@@ -50,7 +51,7 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >
 >Guessing Game code
 
-##### Chapter 3 - Know Your Variables: primitives and references (Current) #####
+##### Chapter 3 - Know Your Variables: primitives and references #####
 >Declaring a variable (Java cares about type)
 >
 >Primitive types ("I'd like a double with extra foam, please")
@@ -64,3 +65,18 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >Objects on the garbage-collectible heap
 >
 >Arrays (a first look)
+
+##### Chapter 4 - How Objects Behave: object state affects method behavior #####
+>Methods use object state (bark different)
+>
+>Method arguments and return types
+>
+>Pass-by-value (the variable is always copied)
+>
+>Getters and Setters
+>
+>Encapsulation (do it or risk humiliation)
+>
+>Using references in an array
+>
+>Exercises and puzzles
