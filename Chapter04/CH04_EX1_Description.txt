@@ -1,0 +1,19 @@
+=================================
+Be The Compiler
+=================================
+Each of the Java files on this page represents a complete source file.  Your job is to play compiler and determine whether each of these files will compile.  If they won't compile, how would you fix them, and if they do compile what would be their output?
+
+XCopy
+=================================
+This file will compile as is.
+I would prefer to move the go() method to its own class.
+
+Output will be the following:
+	42 84
+
+Hobbits
+=================================
+Chaged return type of getTime() method from void to String.
+
+Output will be the following:
+        time: 1245

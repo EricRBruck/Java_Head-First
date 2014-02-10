@@ -1,0 +1,48 @@
+=================================
+Who am I?
+=================================
+A bunch of Java components, in full costume, are playing at a party game, "Who am I?"  They give you a clue, and you try to guess who they are, based on what they say.  Assume they always tell the truth about themselves.  If they happen to say something that could be true for more than one guy, then write down all for whom that sentence applies.  Fill in the blanks next to the sentence with the names of one or more attendees.
+
+Tonight's attendees:
+Instance variable, argument, return, getter, setter, encapsulation, public, private, pass by value, method.
+
+------------------------------------------------------------------
+A class can have any number of these
+	method, instance variables, getter, setter
+------------------------------------------------------------------
+A method can have only one of these
+	return
+------------------------------------------------------------------
+This can be implicitly promoted
+	argument, return
+------------------------------------------------------------------
+I prefer my instance variables private
+	encapsulation
+------------------------------------------------------------------
+It really means 'make a copy'
+	pass by value
+------------------------------------------------------------------
+Only setters should update these
+	instance variable
+------------------------------------------------------------------
+A method can have many of these
+	argument
+------------------------------------------------------------------
+I return something by definition
+	getter
+------------------------------------------------------------------
+I shouldn't be used with instance variables
+	public
+------------------------------------------------------------------
+I can have many arguments
+	method
+------------------------------------------------------------------
+By definition, I take one argument
+	setter
+------------------------------------------------------------------
+These help create encapsulation
+	getter, setter, public, private
+------------------------------------------------------------------
+I always fly solo
+	return
+------------------------------------------------------------------
