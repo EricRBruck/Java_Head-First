@@ -19,8 +19,7 @@ Hobbits
 =================================
 1st Change:
 	The main method needs to be in its own class.
-	The current structure forms an infinite recersive function.
-	Moving main to the HobbitsTestDrive class corrects this problem.
+	Moved main to the HobbitsTestDrive class.
 
 2nd Change:
 	Changed 
