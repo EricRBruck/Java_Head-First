@@ -14,7 +14,9 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >
 >**Chapter 3** - Know Your Variables: primitives and references
 >
->**Chapter 4** - How Objects Behave: object state affects method behavior (Current)
+>**Chapter 4** - How Objects Behave: object state affects method behavior
+>
+>**Chapter 5** - Extra-Strength Methods: flow control, operations, and more (Current)
 
 - - -
 ##### Chapter 1 Content - Breaking the Surface: a quick dip #####
@@ -80,3 +82,26 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >Using references in an array
 >
 >Exercises and puzzles
+
+##### Chapter 5 - Extra-Strength Methods: flow control, operations, and more #####
+>Building the Sink a Dot Com game
+>
+>Starting with the Simple Dot Com game (a simpler version)
+>
+>Writing prepcode (pseudocode for the game)
+>
+>Test code for simple Dot Com
+>
+>Coding the Simple Dot Com game
+>
+>Final code the Simple Dot Com game
+>
+>Generating random numbers with Math.random()
+>
+>Ready-bake code for getting user input from the command-line
+>
+>Looping with for loops
+>
+>Casting primitives from a large size to a small size
+>
+>Converting a String to an into with Integer.parseInt()
