@@ -110,29 +110,29 @@ The Math.random method return a number from **zero to just less than one**.  In 
 
 ### Pre and Post Increment/Decrement Operator ***
 
-Post Increment:
+**Post Increment:** This is the same as x = x + 1;
 
-x++;
+<!-- language: java -->
 
-This is the same as x = x + 1;
+    x++;
 
-Post Decrement:
+**Post Decrement:** This is the same as x = x - 1;
 
-X--;
+<!-- language: java -->
 
-This is the same as x = x - 1;
+    x--;
 
-Pre Increment:
+**Pre Increment:** This is the same as x = x + 1;
 
-++x;
+<!-- language: java -->
 
-This is the same as x = x + 1;
+    ++x;
 
-Pre Decrement:
+**Pre Decrement:** This is the same as x = x - 1;
 
---X;
+<!-- language: java -->
 
-This is the same as x = x - 1;
+    --x;
 
 Putting the operator *before* the variable means, "first" increment by 1 then use the new value.  This only matters when the value is part of a larger expression rather than just a single statement.
 
@@ -148,7 +148,7 @@ This produces x = 1 and z = 1.  x is incremented by 1 then used to set the value
     int x = 0;
     int z = x++;
 
-This produces x = 1 and **z = 0**.  Z is set then x is incremented.
+This produces x = 1 and **z = 0**.  z is set then x is incremented.
 
 - - -
 
