@@ -95,4 +95,67 @@ Instance variables always get a default value.  If you don't explicitly assign a
         int z = x + 3;
       }
     }
-    
+
+- - -
+
+### Random Numbers ###
+
+<!-- language: java -->
+
+    int randomNum = (int) (Math.random() * 5);
+
+The Math.random method return a number from **zero to just less than one**.  In other languages like C++ the number generated from **0 to 32767** (this may vary).  For C++ the modulus (%) is used to generate a number within a range.  In Java you need to multiply (*) to obtain a range of numbers.
+
+- - -
+
+### Pre and Post Increment/Decrement Operator ***
+
+Post Increment:
+
+x++;
+
+This is the same as x = x + 1;
+
+Post Decrement:
+
+X--;
+
+This is the same as x = x - 1;
+
+Pre Increment:
+
+++x;
+
+This is the same as x = x + 1;
+
+Pre Decrement:
+
+--X;
+
+This is the same as x = x - 1;
+
+Putting the operator *before* the variable means, "first" increment by 1 then use the new value.  This only matters when the value is part of a larger expression rather than just a single statement.
+
+<!-- language: java -->
+
+    int x = 0;
+    int z = ++x;
+
+This produces x = 1 and z = 1.  x is incremented by 1 then used to set the value of z.
+
+<!-- language: java -->
+
+    int x = 0;
+    int z = x++;
+
+This produces x = 1 and **z = 0**.  Z is set then x is incremented.
+
+- - -
+
+### The *Enhanced* for Loop ###
+
+<!-- language: java -->
+
+    for (String name : nameArray ) { }
+
+This is synonymous with foreach in other languages.  This loops through all values in nameArray and stores the value in name for each iteration.
