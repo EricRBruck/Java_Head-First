@@ -16,7 +16,9 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >
 >**Chapter 4** - How Objects Behave: object state affects method behavior
 >
->**Chapter 5** - Extra-Strength Methods: flow control, operations, and more (Current)
+>**Chapter 5** - Extra-Strength Methods: flow control, operations, and more
+>
+>**Chapter 6** - Using the Java Library: so you don't have to write it all yourself (Current)
 
 - - -
 ##### Chapter 1 Content - Breaking the Surface: a quick dip #####
@@ -105,3 +107,24 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >Casting primitives from a large size to a small size
 >
 >Converting a String to an into with Integer.parseInt()
+
+##### Chapter 6 - Using the Java Library: so you don't have to write it all yourself #####
+>Analyzing the bug in the Simple Dot Com Game
+>
+>ArrayList (taking advantage of the Java API)
+>
+>Fixing the DotCom class code
+>
+>Building the real game (Sink a Dot Com)
+>
+>Prepcode for the real game
+>
+>Code for the real game
+>
+>boolean expressions
+>
+>Using the library (Java API)
+>
+>Using packages (import statements, fully-qualified names)
+>
+>Using the HTML API docs and reference books
