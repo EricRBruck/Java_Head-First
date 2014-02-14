@@ -30,23 +30,24 @@ This is a game from chapter 5 and 6 of Head First Java.  Most of the code is fro
 
 * I added the printGrid method in the DotComBust class.  This method prints the current state of the grid as a visual representation of the game.  I use the userHitList and userMissList to generate this gird.
 
-> O = hit
-> X = miss
->
->     0   1   2   3   4   5   6 
->    ---------------------------
-> a | X |   |   | X |   |   | X |
->    ---------------------------
-> b |   | O | O | O |   | X |   |
->    ---------------------------
-> c |   | X |   |   | X |   |   |
->    ---------------------------
-> d | X |   |   | O |   | X | O |
->    ---------------------------
-> e |   |   |   | O |   |   | O |
->    ---------------------------
-> f |   |   |   | O |   |   | O |
->    ---------------------------
-> g |   |   |   |   |   |   |   |
->    ---------------------------
->
+<!-- language: java -->
+
+    O = hit
+    X = miss
+    
+         0   1   2   3   4   5   6 
+        ---------------------------
+     a | X |   |   | X |   |   | X |
+        ---------------------------
+     b |   | O | O | O |   | X |   |
+        ---------------------------
+     c |   | X |   |   | X |   |   |
+        ---------------------------
+     d | X |   |   | O |   | X | O |
+        ---------------------------
+     e |   |   |   | O |   |   | O |
+        ---------------------------
+     f |   |   |   | O |   |   | O |
+        ---------------------------
+     g |   |   |   |   |   |   |   |
+        ---------------------------
