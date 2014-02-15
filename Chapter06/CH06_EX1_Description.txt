@@ -1,0 +1,60 @@
+=================================
+Code Magnets
+=================================
+A Java program is all scrambled up on the fridge.  Can you reconstruct the code snippets to make a working java program that produces the output listed below?  Some of the curly braces fell on the floor and they were too small to pick up, so feel free to add as many of those as you need.
+
+Desired output
+=================================
+	zero one two three
+	zero one three four
+	zero one three four 4.2
+	zero one three four 4.2
+
+Code Snippets
+=================================
+
+	-------------------------------------
+	a.remove(2);
+	-------------------------------------
+	printAL(a);
+	-------------------------------------
+	printAL(a);
+	-------------------------------------
+	a.add(0,"zero");
+	a.add(1,"one");
+	-------------------------------------
+	public static void printAL(ArrayList<String> al) {
+	-------------------------------------
+	if (a.contains("two")) {
+		a.add("2.2");
+	}
+	-------------------------------------
+	a.add(2,"two");
+	-------------------------------------
+	public static void main(String [] args) {
+	-------------------------------------
+		System.out.print(element + " ");
+	}
+	System.out.println(" ");
+	-------------------------------------
+	if (a.contains("three")) {
+		a.add("four");
+	}
+	-------------------------------------
+	public class ArrayListMagnet {
+	-------------------------------------
+	if (a.indexOf("four") != 4) {
+		a.add(4,"4.2");
+	}
+	-------------------------------------
+	import java.util.*;
+	-------------------------------------
+	printAL(a);
+	-------------------------------------
+	ArrayList<String> a = new ArrayList<String>();
+	-------------------------------------
+	for (String element : al) {
+	-------------------------------------
+	a.add(3,"three");
+	printAL(a);
+	-------------------------------------
