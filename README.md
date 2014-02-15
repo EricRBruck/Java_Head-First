@@ -18,7 +18,9 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >
 >**Chapter 5** - Extra-Strength Methods: flow control, operations, and more
 >
->**Chapter 6** - Using the Java Library: so you don't have to write it all yourself (Current)
+>**Chapter 6** - Using the Java Library: so you don't have to write it all yourself
+>
+>**Chapter 7** - Better Living in Objectville: planning for the future (Current)
 
 - - -
 ##### Chapter 1 Content - Breaking the Surface: a quick dip #####
@@ -128,3 +130,24 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >Using packages (import statements, fully-qualified names)
 >
 >Using the HTML API docs and reference books
+
+##### Chapter 7 - Better Living in Objectville: planning for the future #####
+>Understanding inheritance (superclass and subclass relationships)
+>
+>Designing an inheritance tree (the Animal simulation)
+>
+>Avoiding duplicate code (using inheritance)
+>
+>Overriding methods
+>
+>IS-A and HAS-A (bathtub girl)
+>
+>What do you inherit from your superclass?
+>
+>What does inheritance really buy you?
+>
+>Polymorphism (using a supertype reference to a subclass object)
+>
+>Rules for overriding (don't touch those arguments and return types!)
+>
+>Method overloading (nothing more than method name re-use)
