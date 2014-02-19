@@ -1,0 +1,62 @@
+=================================
+Be The Compiler
+=================================
+Each of the Java files on this page represents a complete source file.  Your job is to play compiler and determine whether each of these files will compile.  If they won't compile, how would you fix them, and if they do compile what would be their output?
+
+Expected Output
+=================================
+	a bite?
+	breath fire
+	arrrgh
+
+Possible Insert Code
+=================================
+
+------------------------------------------
+boolean frighten(int d) {
+	System.out.println("arrrgh");
+	return true;
+}
+boolean frighten(int x) {
+	System.out.println("a bite?");
+	return false;
+}
+
+	This code segment will give the expected output
+------------------------------------------
+boolean frighten(int x) {
+	System.out.println("arrrgh");
+	return true;
+}
+int frighten(int f) {
+	System.out.println("a bite?");
+	return false;
+}
+
+	The second frighten method will not overload the original method because it has a different return type. 
+------------------------------------------
+boolean frighten(int x) {
+	System.out.println("arrrgh");
+	return true;
+}
+boolean scare(int x) {
+	System.out.println("a bite?");
+	return false;
+}
+
+	The second method will not overload the original method because it has a different name. 
+------------------------------------------
+boolean frighten(int z) {
+	System.out.println("arrrgh");
+	return true;
+}
+boolean frighten(byte b) {
+	System.out.println("a bite?");
+	return false;
+}
+
+	The second frighten method will not overload the original method because it has a different argument type.. 
+------------------------------------------
+	
+
+

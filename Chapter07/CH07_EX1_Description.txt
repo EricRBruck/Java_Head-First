@@ -1,0 +1,44 @@
+=================================
+Mixed Messages
+=================================
+A short Java program is listed below.  One block of the program is missing.  Your challenge is to match the candidate block of code, with the output that you'd see of the block were inserted.  Not all the lines of output will be used, and some of the lines of output might be used more than once.
+
+Candidates
+=================================
+
+	-------------------------------------
+	b.m1();
+	c.m2();
+	a.m3();
+	-------------------------------------
+	c.m1();
+	c.m2();
+	c.m3();
+	-------------------------------------
+	a.m1();
+	b.m2();
+	c.m3();
+	-------------------------------------	
+	a2.m1();
+	a2.m2();
+	a2.m3();
+	-------------------------------------
+
+Possible Output
+=================================
+
+	-------------------------------------
+	A's m1, A's m2, C's m3, 6
+	-------------------------------------
+	B's m1, A's m2, A's m3,
+	-------------------------------------
+	A's m1, B's m2, A's m3,
+	-------------------------------------
+	B's m1, A's m2, C's m3, 13
+	-------------------------------------
+	B's m1, C's m2, A's m3,
+	-------------------------------------
+	B's m1, A's m2, C's m3, 6
+	-------------------------------------
+	A's m1, A's m2, C's m3, 13
+	-------------------------------------
