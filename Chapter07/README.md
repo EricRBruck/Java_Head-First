@@ -6,9 +6,7 @@ Exercise 1 - Mixed Messages
 
 A short Java program is listed below.  One block of the program is missing.  Your challenge is to match the candidate block of code, with the output that you'd see of the block were inserted.  Not all the lines of output will be used, and some of the lines of output might be used more than once.
 
-- - -
-
-Program:
+#### Program: ####
 
 <!-- language: java -->
 
@@ -50,9 +48,24 @@ Program:
 	    }
     }
 
-- - -
 
-Code Candidates 1:
+#### Output Candidates: ####
+
+>A's m1, A's m2, C's m3, 6
+
+>B's m1, A's m2, A's m3,
+
+>A's m1, B's m2, A's m3,
+
+>B's m1, A's m2, C's m3, 13
+
+>B's m1, C's m2, A's m3,
+
+>B's m1, A's m2, C's m3, 6
+
+>A's m1, A's m2, C's m3, 13
+
+#### Code Candidates 1: ####
 
 <!-- language: java -->
 
@@ -60,7 +73,9 @@ Code Candidates 1:
     c.m2();
     a.m3();
 
-Code Candidates 2:
+>Output will be: B's m1, A's m2, A's m3,
+
+#### Code Candidates 2: ####
 
 <!-- language: java -->
 
@@ -68,7 +83,9 @@ Code Candidates 2:
     c.m2();
     c.m3();
 
-Code Candidates 3:
+>Output will be: B's m1, A's m2, C's m3, 13
+
+#### Code Candidates 3: ####
 
 <!-- language: java -->
 
@@ -76,7 +93,9 @@ Code Candidates 3:
     b.m2();
     c.m3();
 
-Code Candidates 4:
+>Output will be: A's m1, A's m2, C's m3, 13
+
+#### Code Candidates 4: ####
 
 <!-- language: java -->
 
@@ -84,37 +103,7 @@ Code Candidates 4:
     a2.m2();
     a2.m3();
 
-- - -
-
-Output:
-
-<!-- language: java -->
-
-    A's m1, A's m2, C's m3, 6
-
-<!-- language: java -->
-
-    B's m1, A's m2, A's m3,
-
-<!-- language: java -->
-
-    A's m1, B's m2, A's m3,
-
-<!-- language: java -->
-
-    B's m1, A's m2, C's m3, 13
-
-<!-- language: java -->
-
-   B's m1, C's m2, A's m3,
-
-<!-- language: java -->
-
-    B's m1, A's m2, C's m3, 6
-
-<!-- language: java -->
-
-    A's m1, A's m2, C's m3, 13
+>Output will be: B's m1, A's m2, C's m3, 13
 
 - - -
 
@@ -123,9 +112,7 @@ Exercise 2 - Be The Compiler
 
 Each of the Java files on this page represents a complete source file.  Your job is to play compiler and determine whether each of these files will compile.  If they won't compile, how would you fix them, and if they do compile what would be their output?
 
-- - -
-
-Program:
+#### Program: ####
 
 <!-- language: java -->
 
@@ -156,15 +143,15 @@ Program:
 	    }
     }
 
-- - -
-
-Desired Output:
+#### Desired Output: ####
 
 >a bite?
+
 >breath fire
+
 >arrrgh
 
-Possible Code Option 1:
+#### Possible Code Option 1: ####
 
 <!-- language: java -->
 
@@ -181,6 +168,8 @@ Possible Code Option 1:
 
 >This code segment will give the expected output
 
+#### Possible Code Option 2: ####
+
 <!-- language: java -->
 
     //Code for location A
@@ -196,6 +185,8 @@ Possible Code Option 1:
 
 >The second frighten method will not overload the original method because it has a different return type.
 
+#### Possible Code Option 3: ####
+
 <!-- language: java -->
 
     //Code for location A
@@ -209,7 +200,9 @@ Possible Code Option 1:
 	    return false;
     }
 
->The second method will not overload the original method because it has a different name. 
+>The second method will not overload the original method because it has a different name.
+
+#### Possible Code Option 4: ####
 
 <!-- language: java -->
 
