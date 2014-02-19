@@ -20,7 +20,9 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >
 >**Chapter 6** - Using the Java Library: so you don't have to write it all yourself
 >
->**Chapter 7** - Better Living in Objectville: planning for the future (Current)
+>**Chapter 7** - Better Living in Objectville: planning for the future
+>
+>**Chapter 8** - Serious Polymorphism: exploiting abstract classes and interfaces (Current)
 
 - - -
 ##### Chapter 1 Content - Breaking the Surface: a quick dip #####
@@ -151,3 +153,28 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >Rules for overriding (don't touch those arguments and return types!)
 >
 >Method overloading (nothing more than method name re-use)
+
+##### Chapter 8 - Serious Polymorphism: exploiting abstract classes and interfaces #####
+>Some classes just should not be instantiated
+>
+>Abstract classes (can't be instantiated)
+>
+>Abstract methods (must be implemented)
+>
+>Polymorphism in action
+>
+>Class Object (the ultimate superclass of everything)
+>
+>Taking objects out of an ArrayList (they come out as type object)
+>
+>Compiler checks the reference type (before letting you call a method)
+>
+>Getting in touch with your inner object
+>
+>Polymorphic references
+>
+>Casting an object reference (moving lower on the inheritance tree)
+>
+>Deadly Diamond of Death (multiple inheritance problem)
+>
+>Using interfaces (the best solution!)
