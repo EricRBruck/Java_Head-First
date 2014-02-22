@@ -6,14 +6,13 @@ Each of the Java files on this page represents a complete source file.  Your job
 XCopy
 =================================
 This file will compile as is.
-I would prefer to move the go() method to its own class.
 
 Output will be the following:
 	42 84
 
-Hobbits
+Clock
 =================================
-Chaged return type of getTime() method from void to String.
+Changed return type of getTime() method from void to String.
 
 Output will be the following:
         time: 1245
