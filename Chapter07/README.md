@@ -51,19 +51,33 @@ A short Java program is listed below.  One block of the program is missing.  You
 
 #### Output Candidates: ####
 
->A's m1, A's m2, C's m3, 6
+<!-- language: txt -->
 
->B's m1, A's m2, A's m3,
+    A's m1, A's m2, C's m3, 6
 
->A's m1, B's m2, A's m3,
+<!-- language: txt -->
 
->B's m1, A's m2, C's m3, 13
+    B's m1, A's m2, A's m3,
 
->B's m1, C's m2, A's m3,
+<!-- language: txt -->
 
->B's m1, A's m2, C's m3, 6
+    A's m1, B's m2, A's m3,
 
->A's m1, A's m2, C's m3, 13
+<!-- language: txt -->
+
+    B's m1, A's m2, C's m3, 13
+
+<!-- language: txt -->
+
+    B's m1, C's m2, A's m3,
+
+<!-- language: txt -->
+
+    B's m1, A's m2, C's m3, 6
+
+<!-- language: txt -->
+
+    A's m1, A's m2, C's m3, 13
 
 #### Code Candidates 1: ####
 
@@ -145,11 +159,11 @@ Each of the Java files on this page represents a complete source file.  Your job
 
 #### Desired Output: ####
 
->a bite?
+<!-- language: txt -->
 
->breath fire
-
->arrrgh
+    a bite?
+    breath fire
+    arrrgh
 
 #### Possible Code Option 1: ####
 
