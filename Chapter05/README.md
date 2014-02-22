@@ -167,7 +167,7 @@ A short Java program is listed below.  One block of the program is missing.  You
     12 14
 
 
-#### Code Candidates 1: ####
+#### Code Candidate 1: ####
 
 <!-- language: java -->
 
@@ -175,7 +175,7 @@ A short Java program is listed below.  One block of the program is missing.  You
 
 >Output will be: 54 6
 
-#### Code Candidates 2: ####
+#### Code Candidate 2: ####
 
 <!-- language: java -->
 
@@ -183,7 +183,7 @@ A short Java program is listed below.  One block of the program is missing.  You
 
 >Output will be: 60 10
 
-#### Code Candidates 3: ####
+#### Code Candidate 3: ####
 
 <!-- language: java -->
 
@@ -191,7 +191,7 @@ A short Java program is listed below.  One block of the program is missing.  You
 
 >Output will be: 45 6
 
-#### Code Candidates 4: ####
+#### Code Candidate 4: ####
 
 <!-- language: java -->
 
@@ -199,7 +199,7 @@ A short Java program is listed below.  One block of the program is missing.  You
 
 >Output will be: 36 6
 
-#### Code Candidates 5: ####
+#### Code Candidate 5: ####
 
 <!-- language: java -->
 
@@ -207,7 +207,7 @@ A short Java program is listed below.  One block of the program is missing.  You
 
 >Output will be: 18 6
 
-#### Code Candidates 6: ####
+#### Code Candidate 6: ####
 
 <!-- language: java -->
 
