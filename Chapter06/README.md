@@ -8,13 +8,12 @@ A Java program is all scrambled up on the fridge.  Can you reconstruct the code 
 
 #### Desired output: ####
 
->zero one two three
+<!-- language: txt -->
 
->zero one three four
-
->zero one three four 4.2
-
->zero one three four 4.2
+    zero one two three
+    zero one three four
+    zero one three four 4.2
+    zero one three four 4.2
 
 #### Code Snippets: ####
 
