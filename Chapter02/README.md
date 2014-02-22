@@ -45,6 +45,8 @@ Missing the following line of code in the TapeDeckTestDrive class:
 
     TapeDeck t = new TapeDeck();
 
+We need to create a TapeDeck object before using it.
+
 <!-- language: java -->
 
     class CH02_EX1_TapeDeckTestDrive {
@@ -99,11 +101,13 @@ Output will be the following:
 
 **Correction**
 
-There is no playDVD method in the DVDPlayer class.  The following line in the DVDPlayerTestDrive class will throw an exception:
+There is no playDVD method in the DVDPlayer class.
 
 <!-- language: java -->
 
     d.playDVD();
+    
+This line in the DVDPlayerTestDrive class will throw an exception:
 
 <!-- language: java -->
 
