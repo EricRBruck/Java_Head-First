@@ -49,7 +49,7 @@ A Java program is all scrambled up on the fridge.  Can you reconstruct the code 
 
 <!-- language: java -->
 
-   while (x > 0) {
+    while (x > 0) {
 
 - - -
 
