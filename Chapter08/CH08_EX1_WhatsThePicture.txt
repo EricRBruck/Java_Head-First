@@ -1,0 +1,104 @@
+=================================
+What's the Picture?
+=================================
+Here's your chance to demonstrate your artistic abilities.  You are given sets of class and interface declarations.  Your job is to draw the associated class diagrams.
+
+Key
+=================================
+
+	- - -> implements
+
+	-----> extends
+
+Questions
+=================================
+
+1)	public interface Foo {}
+	public class Bar implements Foo {}
+
+	(interface)		(class)
+	 -----------		 -----------
+	|    Foo    |		|    Bar    |
+	|-----------|  <- - -   |-----------|
+	|           |		|           |
+	|           |		|           |
+	 -----------		 -----------
+
+2)	public interface Vinn {}
+	public abstract class Vout implements Vinn {}
+
+	(interface)		(abstract class)
+	 -----------		 -----------
+	|   Vinn    |		|   Vout    |
+	|-----------|  <- - -   |-----------|
+	|           |		|           |
+	|           |		|           |
+	 -----------		 -----------
+
+3)	public abstract class Muffie implements Wuffie {}
+	public class Fluffie extends Muffie {}
+	public interface Wuffie {}
+
+	(interface)		(abstract class)	(class)
+	 -----------		 -----------		 -----------
+	|  Wuffie   |		|  Muffie   |		|  Fluffie  |
+	|-----------|  <- - -   |-----------|  <-----   |-----------|
+	|           |		|           |		|           |
+	|           |		|           |		|           |
+	 -----------		 -----------		 -----------
+
+4)	public class Zoop {}
+	public class Boop extends Zoop {}
+	public class Goop extends Boop {}
+
+	(interface)		(class)			(class)
+	 -----------		 -----------		 -----------
+	|   Zoop    |		|   Boop    |		|   Goop    |
+	|-----------|  <-----   |-----------|  <-----   |-----------|
+	|           |		|           |		|           |
+	|           |		|           |		|           |
+	 -----------		 -----------		 -----------
+
+5)	public class Gamma extends Delta implements Epsilon {}
+	public interface Epsilon {}
+	public interface Beta {}
+	public class Alpha extends Gamma implements Beta {}
+	public class Delta {}
+
+	(interface)			(class)
+	 -----------			 -----------
+	|   Delta   |			|  Epsilon  |
+	|-----------|			|-----------|
+	|           |			|           |
+	|           |			|           |
+	 -----------			 -----------
+
+	    /|\				    / \
+	     |				     |
+	      --------------   - - - - - - -
+			    | |
+			    | 
+			    | |
+
+			(interface)			(class)
+			 -----------			 -----------
+			|   Gamma   |			|   Beta    |
+			|-----------|			|-----------|
+			|           |			|           |
+			|           |			|           |
+			 -----------			 -----------
+
+	    		    /|\				    / \
+	     		     |				     |
+	      		      --------------   - - - - - - -
+			    		    | |
+			    		    | 
+			    		    | |
+
+					(interface)
+					 -----------
+					|   Alpha   |
+					|-----------|
+					|           |
+					|           |
+					 -----------
