@@ -182,7 +182,7 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >Using interfaces (the best solution!)
 
 ##### Chapter 9 - Life and Death of an Object: constructors and memory management #####
->The stach and the heap, where objects and variables live
+>The stack and the heap, where objects and variables live
 >
 >Methods on the stack
 >
