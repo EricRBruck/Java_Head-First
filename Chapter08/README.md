@@ -22,13 +22,15 @@ Here's your chance to demonstrate your artistic abilities.  You are given sets o
     public interface Foo {}
     public class Bar implements Foo {}
 
->	(interface)		(class)
->	 -----------		 -----------
->	|    Foo    |		|    Bar    |
->	|-----------|  <- - -   |-----------|
->	|           |		|           |
->	|           |		|           |
->	 -----------		 -----------
+<!-- language: java -->
+
+    (interface)		    (class)
+     -----------	     -----------
+    |    Foo    |	    |    Bar    |
+    |-----------|  <- - -   |-----------|
+    |           |	    |           |
+    |           |	    |           |
+     -----------	     -----------
 
 - - -
 
