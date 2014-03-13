@@ -24,13 +24,13 @@ Here's your chance to demonstrate your artistic abilities.  You are given sets o
 
 <!-- language: java -->
 
-    (interface)		    (class)
-     -----------	     -----------
-    |    Foo    |	    |    Bar    |
-    |-----------|  <- - -   |-----------|
-    |           |	    |           |
-    |           |	    |           |
-     -----------	     -----------
+	(interface)		(class)
+	 -----------		 -----------
+	|    Foo    |		|    Bar    |
+	|-----------|  <- - -   |-----------|
+	|           |		|           |
+	|           |		|           |
+	 -----------		 -----------
 
 - - -
 
