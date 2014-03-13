@@ -137,7 +137,7 @@ Here's your chance to demonstrate your artistic abilities.  You are given sets o
 
 - - -
 
-Exercise 2 - 
+Exercise 2 - What's the Declaration?
 ----------------------------
 
 You are given sets of class diagrams.  Your job is to turn these into valid declarations.
