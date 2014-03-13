@@ -22,7 +22,9 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >
 >**Chapter 7** - Better Living in Objectville: planning for the future
 >
->**Chapter 8** - Serious Polymorphism: exploiting abstract classes and interfaces (Current)
+>**Chapter 8** - Serious Polymorphism: exploiting abstract classes and interfaces
+>
+>**Chapter 9** - Life and Death of an Object: constructors and memory management (Current)
 
 - - -
 ##### Chapter 1 Content - Breaking the Surface: a quick dip #####
@@ -178,3 +180,28 @@ As a review of Java I am going through the book "Head First Java" 2nd Edition fr
 >Deadly Diamond of Death (multiple inheritance problem)
 >
 >Using interfaces (the best solution!)
+
+##### Chapter 9 - Life and Death of an Object: constructors and memory management #####
+>The stach and the heap, where objects and variables live
+>
+>Methods on the stack
+>
+>Where local variables live
+>
+>Where instance variables live
+>
+>The miracle of object creation
+>
+>Constructors (the code that runs when you say new)
+>
+>Initializing the state of a new Duck
+>
+>Overloaded constructors
+>
+>Superclass constructors (constructor chaining)
+>
+>Invoking overloaded constructors using this()
+>
+>Like of an Object
+>
+>Garbage Collection (and making object eligible)
